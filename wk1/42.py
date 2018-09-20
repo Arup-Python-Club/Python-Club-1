@@ -1,0 +1,1 @@
+print('arup'.upper())
