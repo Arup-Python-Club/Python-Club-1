@@ -1,0 +1,175 @@
+WaterUse:Equipment,
+  Water Fixture 2,                        !- Name
+  General,                                !- End-Use Subcategory
+  2.04778159473489e-006,                  !- Peak Flow Rate {m3/s}
+  DHW Usage,                              !- Flow Rate Fraction Schedule Name
+  Floor Hot Water;                        !- Target Temperature Schedule Name
+
+Branch,
+  Plant Loop 1 Demand Branch 6,           !- Name
+  ,                                       !- Pressure Drop Curve Name
+  WaterUse:Connections,                   !- Component Object Type 1
+  Water Use Connection 5,                 !- Component Name 1
+  Node 294,                               !- Component Inlet Node Name 1
+  Node 295;                               !- Component Outlet Node Name 1
+
+WaterUse:Connections,
+  Water Use Connection 5,                 !- Name
+  Node 294,                               !- Inlet Node Name
+  Node 295,                               !- Outlet Node Name
+  ,                                       !- Supply Water Storage Tank Name
+  ,                                       !- Reclamation Water Storage Tank Name
+  ,                                       !- Hot Water Supply Temperature Schedule Name
+  ,                                       !- Cold Water Supply Temperature Schedule Name
+  ,                                       !- Drain Water Heat Exchanger Type
+  ,                                       !- Drain Water Heat Exchanger Destination
+  ,                                       !- Drain Water Heat Exchanger U-Factor Times Area {W/K}
+  Water Fixture 1;                        !- Water Use Equipment Name 1
+
+WaterUse:Equipment,
+  Water Fixture 1,                        !- Name
+  General,                                !- End-Use Subcategory
+  2.04778159473489e-006,                  !- Peak Flow Rate {m3/s}
+  DHW Usage,                              !- Flow Rate Fraction Schedule Name
+  Floor Hot Water;                        !- Target Temperature Schedule Name
+
+Branch,
+  Plant Loop 1 Demand Branch 7,           !- Name
+  ,                                       !- Pressure Drop Curve Name
+  WaterUse:Connections,                   !- Component Object Type 1
+  Water Use Connection 6,                 !- Component Name 1
+  Node 296,                               !- Component Inlet Node Name 1
+  Node 297;                               !- Component Outlet Node Name 1
+
+WaterUse:Connections,
+  Water Use Connection 6,                 !- Name
+  Node 296,                               !- Inlet Node Name
+  Node 297,                               !- Outlet Node Name
+  ,                                       !- Supply Water Storage Tank Name
+  ,                                       !- Reclamation Water Storage Tank Name
+  ,                                       !- Hot Water Supply Temperature Schedule Name
+  ,                                       !- Cold Water Supply Temperature Schedule Name
+  ,                                       !- Drain Water Heat Exchanger Type
+  ,                                       !- Drain Water Heat Exchanger Destination
+  ,                                       !- Drain Water Heat Exchanger U-Factor Times Area {W/K}
+  Water Fixture;                          !- Water Use Equipment Name 1
+
+WaterUse:Equipment,
+  Water Fixture,                          !- Name
+  General,                                !- End-Use Subcategory
+  2.04778159473489e-006,                  !- Peak Flow Rate {m3/s}
+  DHW Usage,                              !- Flow Rate Fraction Schedule Name
+  Floor Hot Water;                        !- Target Temperature Schedule Name
+
+Branch,
+  Plant Loop 1 Demand Bypass Branch,      !- Name
+  ,                                       !- Pressure Drop Curve Name
+  Pipe:Adiabatic,                         !- Component Object Type 1
+  Plant Loop 1 Demand Bypass Pipe,        !- Component Name 1
+  Plant Loop 1 Demand Bypass Pipe Inlet Node, !- Component Inlet Node Name 1
+  Plant Loop 1 Demand Bypass Pipe Outlet Node; !- Component Outlet Node Name 1
+
+Pipe:Adiabatic,
+  Plant Loop 1 Demand Bypass Pipe,        !- Name
+  Plant Loop 1 Demand Bypass Pipe Inlet Node, !- Inlet Node Name
+  Plant Loop 1 Demand Bypass Pipe Outlet Node; !- Outlet Node Name
+
+Branch,
+  Plant Loop 1 Demand Outlet Branch,      !- Name
+  ,                                       !- Pressure Drop Curve Name
+  Pipe:Adiabatic,                         !- Component Object Type 1
+  Plant Loop 1 Demand Outlet Pipe,        !- Component Name 1
+  Plant Loop 1 Demand Outlet Pipe Node,   !- Component Inlet Node Name 1
+  Node 207;                               !- Component Outlet Node Name 1
+
+Pipe:Adiabatic,
+  Plant Loop 1 Demand Outlet Pipe,        !- Name
+  Plant Loop 1 Demand Outlet Pipe Node,   !- Inlet Node Name
+  Node 207;                               !- Outlet Node Name
+
+PlantEquipmentOperationSchemes,
+  Plant Loop 1 Operation Schemes,         !- Name
+  PlantEquipmentOperation:HeatingLoad,    !- Control Scheme Object Type 1
+  Plant Loop 1 Heating Operation Scheme,  !- Control Scheme Name 1
+  Always On Discrete;                     !- Control Scheme Schedule Name 1
+
+PlantEquipmentOperation:HeatingLoad,
+  Plant Loop 1 Heating Operation Scheme,  !- Name
+  0,                                      !- Load Range Lower Limit 1 {W}
+  1000000000,                             !- Load Range Upper Limit 1 {W}
+  Plant Loop 1 Heating Equipment List;    !- Range Equipment List Name 1
+
+PlantEquipmentList,
+  Plant Loop 1 Heating Equipment List,    !- Name
+  WaterHeater:Mixed,                      !- Equipment Object Type 1
+  Water Heater;                           !- Equipment Name 1
+
+RunPeriodControl:DaylightSavingTime,
+  2nd Sunday in March,                    !- Start Date
+  1st Sunday in November;                 !- End Date
+
+OutputControl:ReportingTolerances,
+  0.2,                                    !- Tolerance for Time Heating Setpoint Not Met {deltaC}
+  0.2;                                    !- Tolerance for Time Cooling Setpoint Not Met {deltaC}
+
+Site:Location,
+  New York Central Prk Obs Belv,          !- Name
+  40.78,                                  !- Latitude {deg}
+  -73.97,                                 !- Longitude {deg}
+  -5,                                     !- Time Zone {hr}
+  40;                                     !- Elevation {m}
+
+SizingPeriod:DesignDay,
+  NEW_YORK Ann Clg .4% Condns DB=>MWB,    !- Name
+  7,                                      !- Month
+  21,                                     !- Day of Month
+  SummerDesignDay,                        !- Day Type
+  29.8,                                   !- Maximum Dry-Bulb Temperature {C}
+  7.4,                                    !- Daily Dry-Bulb Temperature Range {deltaC}
+  DefaultMultipliers,                     !- Dry-Bulb Temperature Range Modifier Type
+  ,                                       !- Dry-Bulb Temperature Range Modifier Day Schedule Name
+  Wetbulb,                                !- Humidity Condition Type
+  22.4,                                   !- Wetbulb or DewPoint at Maximum Dry-Bulb {C}
+  ,                                       !- Humidity Condition Day Schedule Name
+  ,                                       !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+  ,                                       !- Enthalpy at Maximum Dry-Bulb {J/kg}
+  ,                                       !- Daily Wet-Bulb Temperature Range {deltaC}
+  100642,                                 !- Barometric Pressure {Pa}
+  5.6,                                    !- Wind Speed {m/s}
+  230,                                    !- Wind Direction {deg}
+  No,                                     !- Rain Indicator
+  No,                                     !- Snow Indicator
+  No,                                     !- Daylight Saving Time Indicator
+  ASHRAETau,                              !- Solar Model Indicator
+  ,                                       !- Beam Solar Day Schedule Name
+  ,                                       !- Diffuse Solar Day Schedule Name
+  0.541,                                  !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub) {dimensionless}
+  1.8;                                    !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
+
+SizingPeriod:DesignDay,
+  NEW_YORK Ann Htg 99.6% Condns DB,       !- Name
+  1,                                      !- Month
+  21,                                     !- Day of Month
+  WinterDesignDay,                        !- Day Type
+  -12.9,                                  !- Maximum Dry-Bulb Temperature {C}
+  0,                                      !- Daily Dry-Bulb Temperature Range {deltaC}
+  DefaultMultipliers,                     !- Dry-Bulb Temperature Range Modifier Type
+  ,                                       !- Dry-Bulb Temperature Range Modifier Day Schedule Name
+  Wetbulb,                                !- Humidity Condition Type
+  -12.9,                                  !- Wetbulb or DewPoint at Maximum Dry-Bulb {C}
+  ,                                       !- Humidity Condition Day Schedule Name
+  ,                                       !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+  ,                                       !- Enthalpy at Maximum Dry-Bulb {J/kg}
+  ,                                       !- Daily Wet-Bulb Temperature Range {deltaC}
+  100642,                                 !- Barometric Pressure {Pa}
+  7.5,                                    !- Wind Speed {m/s}
+  320,                                    !- Wind Direction {deg}
+  No,                                     !- Rain Indicator
+  No,                                     !- Snow Indicator
+  No,                                     !- Daylight Saving Time Indicator
+  ASHRAEClearSky,                         !- Solar Model Indicator
+  ,                                       !- Beam Solar Day Schedule Name
+  ,                                       !- Diffuse Solar Day Schedule Name
+  ,                                       !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub) {dimensionless}
+  ,                                       !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
+  0;                                      !- Sky ClearnessWaterUse:Equipment,  Water Fixture 2,                        !- Name  General,                                !- End-Use Subcategory  2.04778159473489e-006,                  !- Peak Flow Rate {m3/s}  DHW Usage,                              !- Flow Rate Fraction Schedule Name  Floor Hot Water;                        !- Target Temperature Schedule Name

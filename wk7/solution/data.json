@@ -1,0 +1,424 @@
+[
+  {
+    "s3": "simulationfiles/energyplus/7ade9b13-d9d0-42a9-abef-4626aa2922db/out.zip",
+    "version": "v8.9",
+    "total_energy": {
+      "Total Energy [kBtu]": {
+        "Total Site Energy": 3936551.82,
+        "Net Site Energy": 3936551.82,
+        "Total Source Energy": 10862325.89,
+        "Net Source Energy": 10862325.89
+      },
+      "Energy Per Total Building Area [kBtu/ft2]": {
+        "Total Site Energy": 63.87,
+        "Net Site Energy": 63.87,
+        "Total Source Energy": 176.23,
+        "Net Source Energy": 176.23
+      },
+      "Energy Per Conditioned Building Area [kBtu/ft2]": {
+        "Total Site Energy": 71.85,
+        "Net Site Energy": 71.85,
+        "Total Source Energy": 198.26,
+        "Net Source Energy": 198.26
+      },
+      "End Uses by Subcategory": {
+        "Heating": {
+          "General": {
+            "Electricity [kBtu]": 0.0,
+            "Natural Gas [kBtu]": 770395.46,
+            "Additional Fuel [kBtu]": 0.0,
+            "District Cooling [kBtu]": 0.0,
+            "District Heating [kBtu]": 0.0,
+            "Water [gal]": 0.0
+          },
+          "Boiler Parasitic": {
+            "Electricity [kBtu]": 0.0,
+            "Natural Gas [kBtu]": 0.0,
+            "Additional Fuel [kBtu]": 0.0,
+            "District Cooling [kBtu]": 0.0,
+            "District Heating [kBtu]": 0.0,
+            "Water [gal]": 0.0
+          },
+          "Other": {
+            "Electricity [kBtu]": 18718.48,
+            "Natural Gas [kBtu]": 0.0,
+            "Additional Fuel [kBtu]": 0.0,
+            "District Cooling [kBtu]": 0.0,
+            "District Heating [kBtu]": 0.0,
+            "Water [gal]": 0.0
+          }
+        },
+        "Cooling": {
+          "General": {
+            "Electricity [kBtu]": 621605.79,
+            "Natural Gas [kBtu]": 0.0,
+            "Additional Fuel [kBtu]": 0.0,
+            "District Cooling [kBtu]": 0.0,
+            "District Heating [kBtu]": 0.0,
+            "Water [gal]": 0.0
+          }
+        },
+        "Interior Lighting": {
+          "General": {
+            "Electricity [kBtu]": 913418.78,
+            "Natural Gas [kBtu]": 0.0,
+            "Additional Fuel [kBtu]": 0.0,
+            "District Cooling [kBtu]": 0.0,
+            "District Heating [kBtu]": 0.0,
+            "Water [gal]": 0.0
+          }
+        },
+        "Exterior Lighting": {
+          "General": {
+            "Electricity [kBtu]": 0.0,
+            "Natural Gas [kBtu]": 0.0,
+            "Additional Fuel [kBtu]": 0.0,
+            "District Cooling [kBtu]": 0.0,
+            "District Heating [kBtu]": 0.0,
+            "Water [gal]": 0.0
+          }
+        },
+        "Interior Equipment": {
+          "General": {
+            "Electricity [kBtu]": 1468240.9,
+            "Natural Gas [kBtu]": 0.0,
+            "Additional Fuel [kBtu]": 0.0,
+            "District Cooling [kBtu]": 0.0,
+            "District Heating [kBtu]": 0.0,
+            "Water [gal]": 0.0
+          }
+        },
+        "Exterior Equipment": {
+          "General": {
+            "Electricity [kBtu]": 0.0,
+            "Natural Gas [kBtu]": 0.0,
+            "Additional Fuel [kBtu]": 0.0,
+            "District Cooling [kBtu]": 0.0,
+            "District Heating [kBtu]": 0.0,
+            "Water [gal]": 0.0
+          }
+        },
+        "Fans": {
+          "Ventilation (simple)": {
+            "Electricity [kBtu]": 0.0,
+            "Natural Gas [kBtu]": 0.0,
+            "Additional Fuel [kBtu]": 0.0,
+            "District Cooling [kBtu]": 0.0,
+            "District Heating [kBtu]": 0.0,
+            "Water [gal]": 0.0
+          },
+          "General": {
+            "Electricity [kBtu]": 76927.42,
+            "Natural Gas [kBtu]": 0.0,
+            "Additional Fuel [kBtu]": 0.0,
+            "District Cooling [kBtu]": 0.0,
+            "District Heating [kBtu]": 0.0,
+            "Water [gal]": 0.0
+          }
+        },
+        "Pumps": {
+          "General": {
+            "Electricity [kBtu]": 32881.43,
+            "Natural Gas [kBtu]": 0.0,
+            "Additional Fuel [kBtu]": 0.0,
+            "District Cooling [kBtu]": 0.0,
+            "District Heating [kBtu]": 0.0,
+            "Water [gal]": 0.0
+          }
+        },
+        "Heat Rejection": {
+          "General": {
+            "Electricity [kBtu]": 0.0,
+            "Natural Gas [kBtu]": 0.0,
+            "Additional Fuel [kBtu]": 0.0,
+            "District Cooling [kBtu]": 0.0,
+            "District Heating [kBtu]": 0.0,
+            "Water [gal]": 0.0
+          }
+        },
+        "Humidification": {
+          "General": {
+            "Electricity [kBtu]": 0.0,
+            "Natural Gas [kBtu]": 0.0,
+            "Additional Fuel [kBtu]": 0.0,
+            "District Cooling [kBtu]": 0.0,
+            "District Heating [kBtu]": 0.0,
+            "Water [gal]": 0.0
+          }
+        },
+        "Heat Recovery": {
+          "General": {
+            "Electricity [kBtu]": 0.0,
+            "Natural Gas [kBtu]": 0.0,
+            "Additional Fuel [kBtu]": 0.0,
+            "District Cooling [kBtu]": 0.0,
+            "District Heating [kBtu]": 0.0,
+            "Water [gal]": 0.0
+          }
+        },
+        "Water Systems": {
+          "General": {
+            "Electricity [kBtu]": 34363.57,
+            "Natural Gas [kBtu]": 0.0,
+            "Additional Fuel [kBtu]": 0.0,
+            "District Cooling [kBtu]": 0.0,
+            "District Heating [kBtu]": 0.0,
+            "Water [gal]": 28355.3
+          }
+        },
+        "Refrigeration": {
+          "General": {
+            "Electricity [kBtu]": 0.0,
+            "Natural Gas [kBtu]": 0.0,
+            "Additional Fuel [kBtu]": 0.0,
+            "District Cooling [kBtu]": 0.0,
+            "District Heating [kBtu]": 0.0,
+            "Water [gal]": 0.0
+          }
+        },
+        "Generators": {
+          "General": {
+            "Electricity [kBtu]": 0.0,
+            "Natural Gas [kBtu]": 0.0,
+            "Additional Fuel [kBtu]": 0.0,
+            "District Cooling [kBtu]": 0.0,
+            "District Heating [kBtu]": 0.0,
+            "Water [gal]": 0.0
+          }
+        }
+      }
+    },
+    "started_email": false,
+    "project": "NRDC",
+    "memory": 4000,
+    "sim_status": "Complete",
+    "success_email": true,
+    "email": "jared.stock@arup.com",
+    "job_id": "e1ec1935-3ce9-425c-9db5-4aee33aed1fe",
+    "failure_email": false,
+    "simulationtype": "energyplus",
+    "date": "2018/11/01-00:55:10.971",
+    "job_name": "NRDC",
+    "queue": "energyplus-queue",
+    "vCPUs": 2,
+    "instance_type": "On Demand",
+    "send_emails": false,
+    "job_number": "264505-00.3",
+    "results": "https://s3-ap-southeast-2.amazonaws.com/eplusplus/20181101-014716-NRDC/20181101-014716-NRDC.zip",
+    "owner": "Jared Stock",
+    "id": "1bf983fb-378d-4800-b196-e07af237d873",
+    "job_type": "simple",
+    "job_definition": "energyplus"
+  },
+  {
+    "s3": "simulationfiles/energyplus/544bd70e-6c9d-46f0-978a-f177fed08a68/out.zip",
+    "version": "v8.9",
+    "total_energy": {
+      "Total Energy [kBtu]": {
+        "Total Site Energy": 3936551.82,
+        "Net Site Energy": 3936551.82,
+        "Total Source Energy": 10862325.89,
+        "Net Source Energy": 10862325.89
+      },
+      "Energy Per Total Building Area [kBtu/ft2]": {
+        "Total Site Energy": 63.87,
+        "Net Site Energy": 63.87,
+        "Total Source Energy": 176.23,
+        "Net Source Energy": 176.23
+      },
+      "Energy Per Conditioned Building Area [kBtu/ft2]": {
+        "Total Site Energy": 71.85,
+        "Net Site Energy": 71.85,
+        "Total Source Energy": 198.26,
+        "Net Source Energy": 198.26
+      },
+      "End Uses by Subcategory": {
+        "Heating": {
+          "General": {
+            "Electricity [kBtu]": 0.0,
+            "Natural Gas [kBtu]": 770395.46,
+            "Additional Fuel [kBtu]": 0.0,
+            "District Cooling [kBtu]": 0.0,
+            "District Heating [kBtu]": 0.0,
+            "Water [gal]": 0.0
+          },
+          "Boiler Parasitic": {
+            "Electricity [kBtu]": 0.0,
+            "Natural Gas [kBtu]": 0.0,
+            "Additional Fuel [kBtu]": 0.0,
+            "District Cooling [kBtu]": 0.0,
+            "District Heating [kBtu]": 0.0,
+            "Water [gal]": 0.0
+          },
+          "Other": {
+            "Electricity [kBtu]": 18718.48,
+            "Natural Gas [kBtu]": 0.0,
+            "Additional Fuel [kBtu]": 0.0,
+            "District Cooling [kBtu]": 0.0,
+            "District Heating [kBtu]": 0.0,
+            "Water [gal]": 0.0
+          }
+        },
+        "Cooling": {
+          "General": {
+            "Electricity [kBtu]": 621605.79,
+            "Natural Gas [kBtu]": 0.0,
+            "Additional Fuel [kBtu]": 0.0,
+            "District Cooling [kBtu]": 0.0,
+            "District Heating [kBtu]": 0.0,
+            "Water [gal]": 0.0
+          }
+        },
+        "Interior Lighting": {
+          "General": {
+            "Electricity [kBtu]": 913418.78,
+            "Natural Gas [kBtu]": 0.0,
+            "Additional Fuel [kBtu]": 0.0,
+            "District Cooling [kBtu]": 0.0,
+            "District Heating [kBtu]": 0.0,
+            "Water [gal]": 0.0
+          }
+        },
+        "Exterior Lighting": {
+          "General": {
+            "Electricity [kBtu]": 0.0,
+            "Natural Gas [kBtu]": 0.0,
+            "Additional Fuel [kBtu]": 0.0,
+            "District Cooling [kBtu]": 0.0,
+            "District Heating [kBtu]": 0.0,
+            "Water [gal]": 0.0
+          }
+        },
+        "Interior Equipment": {
+          "General": {
+            "Electricity [kBtu]": 1468240.9,
+            "Natural Gas [kBtu]": 0.0,
+            "Additional Fuel [kBtu]": 0.0,
+            "District Cooling [kBtu]": 0.0,
+            "District Heating [kBtu]": 0.0,
+            "Water [gal]": 0.0
+          }
+        },
+        "Exterior Equipment": {
+          "General": {
+            "Electricity [kBtu]": 0.0,
+            "Natural Gas [kBtu]": 0.0,
+            "Additional Fuel [kBtu]": 0.0,
+            "District Cooling [kBtu]": 0.0,
+            "District Heating [kBtu]": 0.0,
+            "Water [gal]": 0.0
+          }
+        },
+        "Fans": {
+          "Ventilation (simple)": {
+            "Electricity [kBtu]": 0.0,
+            "Natural Gas [kBtu]": 0.0,
+            "Additional Fuel [kBtu]": 0.0,
+            "District Cooling [kBtu]": 0.0,
+            "District Heating [kBtu]": 0.0,
+            "Water [gal]": 0.0
+          },
+          "General": {
+            "Electricity [kBtu]": 76927.42,
+            "Natural Gas [kBtu]": 0.0,
+            "Additional Fuel [kBtu]": 0.0,
+            "District Cooling [kBtu]": 0.0,
+            "District Heating [kBtu]": 0.0,
+            "Water [gal]": 0.0
+          }
+        },
+        "Pumps": {
+          "General": {
+            "Electricity [kBtu]": 32881.43,
+            "Natural Gas [kBtu]": 0.0,
+            "Additional Fuel [kBtu]": 0.0,
+            "District Cooling [kBtu]": 0.0,
+            "District Heating [kBtu]": 0.0,
+            "Water [gal]": 0.0
+          }
+        },
+        "Heat Rejection": {
+          "General": {
+            "Electricity [kBtu]": 0.0,
+            "Natural Gas [kBtu]": 0.0,
+            "Additional Fuel [kBtu]": 0.0,
+            "District Cooling [kBtu]": 0.0,
+            "District Heating [kBtu]": 0.0,
+            "Water [gal]": 0.0
+          }
+        },
+        "Humidification": {
+          "General": {
+            "Electricity [kBtu]": 0.0,
+            "Natural Gas [kBtu]": 0.0,
+            "Additional Fuel [kBtu]": 0.0,
+            "District Cooling [kBtu]": 0.0,
+            "District Heating [kBtu]": 0.0,
+            "Water [gal]": 0.0
+          }
+        },
+        "Heat Recovery": {
+          "General": {
+            "Electricity [kBtu]": 0.0,
+            "Natural Gas [kBtu]": 0.0,
+            "Additional Fuel [kBtu]": 0.0,
+            "District Cooling [kBtu]": 0.0,
+            "District Heating [kBtu]": 0.0,
+            "Water [gal]": 0.0
+          }
+        },
+        "Water Systems": {
+          "General": {
+            "Electricity [kBtu]": 34363.57,
+            "Natural Gas [kBtu]": 0.0,
+            "Additional Fuel [kBtu]": 0.0,
+            "District Cooling [kBtu]": 0.0,
+            "District Heating [kBtu]": 0.0,
+            "Water [gal]": 28355.3
+          }
+        },
+        "Refrigeration": {
+          "General": {
+            "Electricity [kBtu]": 0.0,
+            "Natural Gas [kBtu]": 0.0,
+            "Additional Fuel [kBtu]": 0.0,
+            "District Cooling [kBtu]": 0.0,
+            "District Heating [kBtu]": 0.0,
+            "Water [gal]": 0.0
+          }
+        },
+        "Generators": {
+          "General": {
+            "Electricity [kBtu]": 0.0,
+            "Natural Gas [kBtu]": 0.0,
+            "Additional Fuel [kBtu]": 0.0,
+            "District Cooling [kBtu]": 0.0,
+            "District Heating [kBtu]": 0.0,
+            "Water [gal]": 0.0
+          }
+        }
+      }
+    },
+    "started_email": false,
+    "project": "NRDC",
+    "memory": 4000,
+    "sim_status": "Complete",
+    "success_email": true,
+    "email": "jared.stock@arup.com",
+    "job_id": "3dbbd538-0673-45fa-b76c-a7eb0b314926",
+    "failure_email": false,
+    "simulationtype": "energyplus",
+    "date": "2018/11/01-00:55:09.988",
+    "job_name": "NRDC",
+    "queue": "energyplus-queue",
+    "vCPUs": 2,
+    "instance_type": "On Demand",
+    "send_emails": false,
+    "job_number": "264505-00.3",
+    "results": "https://s3-ap-southeast-2.amazonaws.com/eplusplus/20181101-014816-NRDC/20181101-014816-NRDC.zip",
+    "owner": "Jared Stock",
+    "id": "c91911b4-5d59-4df5-9a9e-efbb6866d1c2",
+    "job_type": "simple",
+    "job_definition": "energyplus"
+  }
+]
