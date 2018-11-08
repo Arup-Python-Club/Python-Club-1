@@ -2,17 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f5d84b3-0410-4415-b783-ceb50120cbcf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/wk7/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wk7/data.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wk7/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wk7/reader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wk7/solution/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wk7/solution/data.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wk7/solution/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wk7/solution/new_data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wk7/solution/new_data.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wk7/solution/new_data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wk7/solution/reader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wk8/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wk8/data.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wk8/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wk8/reader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wk8/solution/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wk8/solution/data.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wk8/solution/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wk8/solution/new_data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wk8/solution/new_data.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wk8/solution/new_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wk8/solution/reader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,82 +25,81 @@
     <session id="311971588">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="json" value="2" />
-          <entry key="py" value="10" />
-          <entry key="txt" value="1" />
+          <entry key="py" value="15" />
+          <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="2" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="10" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="13" />
           <entry key="json" value="2" />
-          <entry key="py" value="3334" />
+          <entry key="py" value="3624" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="2" />
           <entry key="PLAIN_TEXT" value="13" />
-          <entry key="Python" value="3334" />
+          <entry key="Python" value="3624" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wk7/reader.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-                <marker date="1541170657784" expanded="true" signature="178:179" ph="..." />
-                <marker date="1541170657784" expanded="true" signature="178:255" ph="..." />
-                <marker date="1541170657784" expanded="true" signature="409:423" ph="..." />
-                <marker date="1541170657784" expanded="true" signature="420:423" ph="..." />
-                <marker date="1541170657784" expanded="true" signature="550:562" ph="..." />
-                <marker date="1541170657784" expanded="true" signature="550:564" ph="..." />
-                <marker date="1541170657784" expanded="true" signature="632:646" ph="..." />
-                <marker date="1541170657784" expanded="true" signature="643:646" ph="..." />
-                <marker date="1541170657784" expanded="true" signature="771:772" ph="..." />
-                <marker date="1541170657784" expanded="true" signature="771:785" ph="..." />
-                <marker date="1541170657784" expanded="true" signature="862:876" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wk7/solution/reader.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/wk8/reader.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="119">
+                  <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+                  <folding>
+                    <element signature="e#0#9#0" expanded="true" />
+                    <element signature="e#876#974#0" />
+                    <element signature="e#1701#2067#1" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/wk8/solution/reader.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="476">
+                  <caret line="114" column="14" selection-start-line="114" selection-end-line="115" />
+                  <folding>
+                    <element signature="e#0#9#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -125,12 +125,14 @@
         <option value="$PROJECT_DIR$/wk6/data_cleaner.py" />
         <option value="$PROJECT_DIR$/wk7/data.txt" />
         <option value="$PROJECT_DIR$/wk7/data.json" />
+        <option value="$PROJECT_DIR$/wk7/solution/reader.py" />
         <option value="$PROJECT_DIR$/wk7/reader.py" />
+        <option value="$PROJECT_DIR$/wk8/reader.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
+    <option name="x" value="3832" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -151,12 +153,12 @@
             <path>
               <item name="Python-Club-1" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python-Club-1" type="462c0819:PsiDirectoryNode" />
-              <item name="wk7" type="462c0819:PsiDirectoryNode" />
+              <item name="wk8" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python-Club-1" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python-Club-1" type="462c0819:PsiDirectoryNode" />
-              <item name="wk7" type="462c0819:PsiDirectoryNode" />
+              <item name="wk8" type="462c0819:PsiDirectoryNode" />
               <item name="solution" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -171,9 +173,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jared.stock\Documents\Git\Python-Club-1" />
       <recent name="C:\Users\jared.stock\Documents\Git\Python-Club-1\wk7\solution" />
       <recent name="C:\Users\jared.stock\Documents\Git\Python-Club-1\wk7" />
-      <recent name="C:\Users\jared.stock\Documents\Git\Python-Club-1" />
       <recent name="C:\Users\jared.stock\Documents\Git\Python-Club-1\wk6\solution" />
       <recent name="C:\Users\jared.stock\Documents\Git\Python-Club-1\wk5\solution" />
     </key>
@@ -281,21 +283,21 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="3832" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1433902" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14552239" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32925472" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32925472" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.09677419" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2502781" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -333,9 +335,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -361,31 +360,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wk7/solution/reader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="918">
+          <caret line="74" column="17" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#1014#1112#0" />
+            <element signature="e#1839#2205#1" />
+            <element signature="e#2207#2264#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wk7/reader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+        <state relative-caret-position="65">
+          <caret line="12" column="62" lean-forward="true" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
             <marker date="1541170657784" expanded="true" signature="178:179" ph="..." />
-            <marker date="1541170657784" expanded="true" signature="178:255" ph="..." />
-            <marker date="1541170657784" expanded="true" signature="409:423" ph="..." />
-            <marker date="1541170657784" expanded="true" signature="420:423" ph="..." />
-            <marker date="1541170657784" expanded="true" signature="550:562" ph="..." />
-            <marker date="1541170657784" expanded="true" signature="550:564" ph="..." />
-            <marker date="1541170657784" expanded="true" signature="632:646" ph="..." />
-            <marker date="1541170657784" expanded="true" signature="643:646" ph="..." />
-            <marker date="1541170657784" expanded="true" signature="771:772" ph="..." />
-            <marker date="1541170657784" expanded="true" signature="771:785" ph="..." />
-            <marker date="1541170657784" expanded="true" signature="862:876" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk8/data.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk8/solution/reader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="114" column="14" selection-start-line="114" selection-end-line="115" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk8/reader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#876#974#0" />
+            <element signature="e#1701#2067#1" />
           </folding>
         </state>
       </provider>
